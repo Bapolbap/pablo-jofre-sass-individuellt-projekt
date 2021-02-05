@@ -44,6 +44,12 @@
         .aphex-twin-album-cover {
             @include imageSettings($aphexTwinCover);
         }
+        .radiohead-album-cover {
+            @include imageSettings($radioheadCover);
+        }
+        .madvillain-album-cover {
+            @include imageSettings($madvillainCover);
+        }
     }
 }
 

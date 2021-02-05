@@ -1,9 +1,6 @@
 @import './variables';
 
-@mixin getImageFromUrl($url) {
-    background-image: url($url);
-}
-
+//settings for all the images on the page, the parameter specifies wich image gets used
 @mixin imageSettings($url) {
     background-image: url($url);
     background-size: contain;
@@ -12,8 +9,10 @@
     padding: 100px;
     margin: 25px;
     border-radius: 5px;
+    box-shadow: 5px 5px $backgroundColor;
 }
 
+//settings for the text that appears when you hover over the album cover
 @mixin hoverTextSettings() {
     visibility: hidden;
     width: 120px;
@@ -27,16 +26,20 @@
     bottom: 100%;
     left: 50%;
     margin-left: -60px;
+    word-wrap: normal;
 }
 
+//when the album cover is hovered over, set its visibility to visible
 @mixin hoverTextSettingsHovered() {
     visibility: visible;
 }
 
+//use the arial font for all text
 @mixin textSettings() {
     font-family: Arial;
 }
 
+//setup for the flex properties that the ul should have
 @mixin ulSettings() {
     max-width: 100%;
     display: flex;

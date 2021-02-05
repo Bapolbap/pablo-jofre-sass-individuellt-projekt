@@ -28,6 +28,8 @@
   padding: 100px;
   margin: 25px;
   border-radius: 5px;
+  -webkit-box-shadow: 5px 5px #717171;
+          box-shadow: 5px 5px #717171;
 }
 
 .albums-list ul .fleetwood-mac-album-cover {
@@ -38,6 +40,8 @@
   padding: 100px;
   margin: 25px;
   border-radius: 5px;
+  -webkit-box-shadow: 5px 5px #717171;
+          box-shadow: 5px 5px #717171;
 }
 
 .albums-list ul .godspeed-you-album-cover {
@@ -48,6 +52,8 @@
   padding: 100px;
   margin: 25px;
   border-radius: 5px;
+  -webkit-box-shadow: 5px 5px #717171;
+          box-shadow: 5px 5px #717171;
 }
 
 .albums-list ul .joy-division-album-cover {
@@ -58,6 +64,8 @@
   padding: 100px;
   margin: 25px;
   border-radius: 5px;
+  -webkit-box-shadow: 5px 5px #717171;
+          box-shadow: 5px 5px #717171;
 }
 
 .albums-list ul .the-microphones-album-cover {
@@ -68,6 +76,8 @@
   padding: 100px;
   margin: 25px;
   border-radius: 5px;
+  -webkit-box-shadow: 5px 5px #717171;
+          box-shadow: 5px 5px #717171;
 }
 
 .albums-list ul .new-order-album-cover {
@@ -78,6 +88,8 @@
   padding: 100px;
   margin: 25px;
   border-radius: 5px;
+  -webkit-box-shadow: 5px 5px #717171;
+          box-shadow: 5px 5px #717171;
 }
 
 .albums-list ul .talking-heads-album-cover {
@@ -88,6 +100,8 @@
   padding: 100px;
   margin: 25px;
   border-radius: 5px;
+  -webkit-box-shadow: 5px 5px #717171;
+          box-shadow: 5px 5px #717171;
 }
 
 .albums-list ul .sigur-ros-album-cover {
@@ -98,6 +112,8 @@
   padding: 100px;
   margin: 25px;
   border-radius: 5px;
+  -webkit-box-shadow: 5px 5px #717171;
+          box-shadow: 5px 5px #717171;
 }
 
 .albums-list ul .the-antlers-album-cover {
@@ -108,6 +124,8 @@
   padding: 100px;
   margin: 25px;
   border-radius: 5px;
+  -webkit-box-shadow: 5px 5px #717171;
+          box-shadow: 5px 5px #717171;
 }
 
 .albums-list ul .aphex-twin-album-cover {
@@ -118,6 +136,32 @@
   padding: 100px;
   margin: 25px;
   border-radius: 5px;
+  -webkit-box-shadow: 5px 5px #717171;
+          box-shadow: 5px 5px #717171;
+}
+
+.albums-list ul .radiohead-album-cover {
+  background-image: url("./../images/radiohead.jpg");
+  background-size: contain;
+  height: 100px;
+  width: 100px;
+  padding: 100px;
+  margin: 25px;
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 5px #717171;
+          box-shadow: 5px 5px #717171;
+}
+
+.albums-list ul .madvillain-album-cover {
+  background-image: url("./../images/madvillain.png");
+  background-size: contain;
+  height: 100px;
+  width: 100px;
+  padding: 100px;
+  margin: 25px;
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 5px #717171;
+          box-shadow: 5px 5px #717171;
 }
 
 .tooltip-image .tooltip {
@@ -133,6 +177,7 @@
   bottom: 100%;
   left: 50%;
   margin-left: -60px;
+  word-wrap: normal;
 }
 
 .tooltip-image:hover .tooltip {
