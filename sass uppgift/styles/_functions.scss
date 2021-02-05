@@ -1,0 +1,47 @@
+@import './variables';
+
+@mixin getImageFromUrl($url) {
+    background-image: url($url);
+}
+
+@mixin imageSettings($url) {
+    background-image: url($url);
+    background-size: contain;
+    height: 100px;
+    width: 100px;
+    padding: 100px;
+    margin: 25px;
+    border-radius: 5px;
+}
+
+@mixin hoverTextSettings() {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: relative;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+@mixin hoverTextSettingsHovered() {
+    visibility: visible;
+}
+
+@mixin textSettings() {
+    font-family: Arial;
+}
+
+@mixin ulSettings() {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    flex-direction: row;
+    list-style-type: none;
+}

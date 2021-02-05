@@ -1,0 +1,142 @@
+.header-container h1 {
+  text-align: center;
+  font-family: Arial;
+}
+
+.albums-list ul {
+  max-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style-type: none;
+}
+
+.albums-list ul .king-crimson-album-cover {
+  background-image: url("./../images/king-crimson.jpg");
+  background-size: contain;
+  height: 100px;
+  width: 100px;
+  padding: 100px;
+  margin: 25px;
+  border-radius: 5px;
+}
+
+.albums-list ul .fleetwood-mac-album-cover {
+  background-image: url("./../images/fleetwood-mac.jpg");
+  background-size: contain;
+  height: 100px;
+  width: 100px;
+  padding: 100px;
+  margin: 25px;
+  border-radius: 5px;
+}
+
+.albums-list ul .godspeed-you-album-cover {
+  background-image: url("./../images/godspeed-you.jpg");
+  background-size: contain;
+  height: 100px;
+  width: 100px;
+  padding: 100px;
+  margin: 25px;
+  border-radius: 5px;
+}
+
+.albums-list ul .joy-division-album-cover {
+  background-image: url("./../images/joy-division.jpg");
+  background-size: contain;
+  height: 100px;
+  width: 100px;
+  padding: 100px;
+  margin: 25px;
+  border-radius: 5px;
+}
+
+.albums-list ul .the-microphones-album-cover {
+  background-image: url("./../images/the-microphones.jpg");
+  background-size: contain;
+  height: 100px;
+  width: 100px;
+  padding: 100px;
+  margin: 25px;
+  border-radius: 5px;
+}
+
+.albums-list ul .new-order-album-cover {
+  background-image: url("./../images/new-order.jpg");
+  background-size: contain;
+  height: 100px;
+  width: 100px;
+  padding: 100px;
+  margin: 25px;
+  border-radius: 5px;
+}
+
+.albums-list ul .talking-heads-album-cover {
+  background-image: url("./../images/talking-heads.jpg");
+  background-size: contain;
+  height: 100px;
+  width: 100px;
+  padding: 100px;
+  margin: 25px;
+  border-radius: 5px;
+}
+
+.albums-list ul .sigur-ros-album-cover {
+  background-image: url("./../images/sigur-ros.jpg");
+  background-size: contain;
+  height: 100px;
+  width: 100px;
+  padding: 100px;
+  margin: 25px;
+  border-radius: 5px;
+}
+
+.albums-list ul .the-antlers-album-cover {
+  background-image: url("./../images/the-antlers.png");
+  background-size: contain;
+  height: 100px;
+  width: 100px;
+  padding: 100px;
+  margin: 25px;
+  border-radius: 5px;
+}
+
+.albums-list ul .aphex-twin-album-cover {
+  background-image: url("./../images/aphex-twin.png");
+  background-size: contain;
+  height: 100px;
+  width: 100px;
+  padding: 100px;
+  margin: 25px;
+  border-radius: 5px;
+}
+
+.tooltip-image .tooltip {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  position: relative;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip-image:hover .tooltip {
+  visibility: visible;
+  font-family: Arial;
+}
+/*# sourceMappingURL=style.css.map */

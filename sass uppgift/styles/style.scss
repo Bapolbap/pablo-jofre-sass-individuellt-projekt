@@ -1,0 +1,58 @@
+@import './variables';
+@import './functions';
+
+.header-container {
+    //background-color: $header-background-color;
+    
+    h1 {
+        text-align: center;
+        @include textSettings();
+    }
+}
+
+.albums-list {
+    ul {
+        @include ulSettings();
+
+        .king-crimson-album-cover {
+            @include imageSettings($kingCrimsonCover);
+        }
+        .fleetwood-mac-album-cover {
+            @include imageSettings($fleetwoodMacCover);
+        }
+        .godspeed-you-album-cover {
+            @include imageSettings($godspeedYouCover);
+        }
+        .joy-division-album-cover {
+            @include imageSettings($joyDivisionCover);
+        }
+        .the-microphones-album-cover {
+            @include imageSettings($theMicrophonesCover);
+        }
+        .new-order-album-cover {
+            @include imageSettings($newOrderCover);
+        }
+        .talking-heads-album-cover {
+            @include imageSettings($talkingHeadsCover);
+        }
+        .sigur-ros-album-cover {
+            @include imageSettings($sigurRosCover);
+        }
+        .the-antlers-album-cover {
+            @include imageSettings($theAntlersCover);
+        }
+        .aphex-twin-album-cover {
+            @include imageSettings($aphexTwinCover);
+        }
+    }
+}
+
+.tooltip-image{
+    .tooltip {
+        @include hoverTextSettings();
+    }
+    &:hover .tooltip{
+        @include hoverTextSettingsHovered();
+        @include textSettings();
+    }
+}
